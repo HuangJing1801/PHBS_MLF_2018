@@ -3,7 +3,10 @@
 # 1. Project Description
 # 2. Dataset Description
 ## 2.1 Dataset Source
+###Download from LendingClub
+###Webpage:https://www.lendingclub.com/info/download-data.action
 ## 2.2 Dataset Information
+###Loan data for Q2 of 2018
 ## 2.3 Data visualization
 # 3. Data preprocessing
 ## 3.1 Drop the meaningless columns
