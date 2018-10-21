@@ -1,6 +1,10 @@
 # Proposal
 # Huang Jing  1801213537
 # 1. Project Description
+Use real loan data to train the model.<br>
+Find the most important factors that Banks take into account when making loans.<br>
+Find out the difference between the result and the reality.<br>
+Try to analyze the reasons behind it.
 # 2. Dataset Description
 ## 2.1 Dataset Source
 Download from LendingClub <br>
