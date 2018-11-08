@@ -49,6 +49,7 @@ This graph shows the importances of 15 features selected.
 # 5. Validation
 ## 5.1 Accuracy 
 ## 5.2 Confusion Matrix
+!(https://github.com/PHBS_MLF_2018/images/output_16_1.png)
 ## 5.3 AUC
 # 6. Conclusion
 I didn't try every classification model introduced by professor and our textbook within limited time.<br>
