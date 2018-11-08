@@ -15,12 +15,6 @@ Format:csv<br>
 Data size:42.7 MB<br>
 LendingClub provide a formal data dictionary, Please check it in folder "data".
 ## 2.3 Data visualization
-id	member_id	loan_amnt	funded_amnt	funded_amnt_inv	term	int_rate	installment	grade	sub_grade	...	hardship_payoff_balance_amount	hardship_last_payment_amount	disbursement_method	debt_settlement_flag	debt_settlement_flag_date	settlement_status	settlement_date	settlement_amount	settlement_percentage	settlement_term<br>
-0	NaN	nan	5000.00000	5000.00000	4975.00000	36 months	10.65%	162.87000	B	B2	...	nan	nan	Cash	N	NaN	NaN	NaN	nan	nan	nan
-1	NaN	nan	2500.00000	2500.00000	2500.00000	60 months	15.27%	59.83000	C	C4	...	nan	nan	Cash	N	NaN	NaN	NaN	nan	nan	nan
-2	NaN	nan	2400.00000	2400.00000	2400.00000	36 months	15.96%	84.33000	C	C5	...	nan	nan	Cash	N	NaN	NaN	NaN	nan	nan	nan
-3	NaN	nan	10000.00000	10000.00000	10000.00000	36 months	13.49%	339.31000	C	C1	...	nan	nan	Cash	N	NaN	NaN	NaN	nan	nan	nan
-4	NaN	nan	3000.00000	3000.00000	3000.00000	60 months	12.69%	67.79000	B	B5	...	nan	nan	Cash	N	NaN	NaN	NaN	nan	nan	nan<br>
 5 rows × 145 columns
 # 3. Data preprocessing
 ## 3.1 Deal with the null value
