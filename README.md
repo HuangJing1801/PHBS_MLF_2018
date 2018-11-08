@@ -1,17 +1,20 @@
-# Proposal
-# Huang Jing  1801213537
+# Logistic regression based online loan credit evaluation
+### Huang Jing  1801213537
 # 1. Project Description
-Use real loan data to train the model.<br>
-Find the most important factors that Banks take into account when making loans.<br>
-Find out the difference between the result and the reality.<br>
-Try to analyze the reasons behind it.
+This project is my summary of PHBS course "Machine Learning for Finance".<br>
+* Use online loan application data to train the logistic regression model.<br>
+* Predict whether the applicants will get the loan.<br>
+
 # 2. Dataset Description
 ## 2.1 Dataset Source
 Download from LendingClub <br>
 Webpage:https://www.lendingclub.com/info/download-data.action
 ## 2.2 Dataset Information
-Loan data for Q2 of 2018
+Loan data for Q2 of 2018<br>
+Format:csv<br>
+Data size:42.7 MB
 ## 2.3 Data visualization
+
 # 3. Data preprocessing
 ## 3.1 Drop the meaningless columns
 ## 3.2 Data split
