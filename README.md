@@ -35,7 +35,7 @@ Here are the 8 features I choosed:
 ## 3.3 Prepare the data for sklearn
 * Ordinal data: defining a map_dic & replacing<br>
 * Nominal data: one-hot encoding<br>
-The picture below shows the pre-processed data:
+The picture below shows the pre-processed data:(More information included in my ipynb file "preprocessing",please check it.)
  ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/after_clean.png)
 ## 3.4 Peature scaling
 Standardization
