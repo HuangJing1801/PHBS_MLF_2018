@@ -65,3 +65,6 @@ There are some points that influence the result:<br>
 * Dealing with the missing data: I just drop all columns and rows that contain null value instead of filling in.
 * Selecting features. Feature engineering is a big challenge in reality. In my project, I just try my best to make the selection meaningful and interpretable for the model.
 * Model choose. The result may be a little bit different if I try to fit other models. But since the result of regression model is not that good, and also I find out that other people's results on this case online is not good either, so I decide to stop here.
+<br>
+Lastly,I want to thank Prof.Choi of PHBS to offer this course in Module 1.And I will appreciate all your efforts. I think it is very rare and precious that I can learn all this in a bussiness school.<br>
+Although my mathematics skills are not up to the level of understanding everything. I still think I have got what I expected for this course.
