@@ -33,8 +33,8 @@ Reduce the number of "obj" columns from 40 to 8.<br>
 Here are the 8 features I choosed:
  ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/obj_features_8.png)
 ## 3.3 Prepare the data for sklearn
-Ordinal data: defining a map_dic & replacing<br>
-Nominal data: one-hot encoding<br>
+* Ordinal data: defining a map_dic & replacing<br>
+* Nominal data: one-hot encoding<br>
 The picture below shows the pre-processed data:
  ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/after_clean.png)
 ## 3.4 Peature scaling
