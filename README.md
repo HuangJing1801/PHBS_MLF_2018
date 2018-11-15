@@ -15,8 +15,8 @@ Format: csv<br>
 Data size: 42.7 MB<br>
 LendingClub provide a formal data dictionary, please check it in folder "data".
 ## 2.3 Data visualization
- ![image]()
-5 rows × 145 columns
+ ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/data_visualization.png)
+You can see that there are 145 columns with many null values.
 # 3. Data preprocessing
 ## 3.1 Deal with the null value
 These two pictures below show the proportion of missing data:<br>
@@ -25,18 +25,18 @@ These two pictures below show the proportion of missing data:<br>
 Here I drop all columns and rows that contains null value.<br>
 After cleaning:<br>
  ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/output_10_1.png)
+ 
 ## 3.2 Drop the meaningless columns
 Feature engineering is a challenge. I will try some method and check the feature importances below.<br>
 In order to simplify the project, I just drop the meaningless columns after checking the data dictionary provided by LendingClub.<br>
 Reduce the number of "obj" columns from 40 to 8.<br>
 Here are the 8 features I choosed:
- ![image]()
+ ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/obj_features_8.png)
 ## 3.3 Prepare the data for sklearn
 Ordinal data: defining a map_dic & replacing<br>
 Nominal data: one-hot encoding<br>
 The picture below shows the pre-processed data:
- ![image]()
- 40 columns
+ ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/after_clean.png)
 ## 3.4 Peature scaling
 Standardization
 ## 3.5 Feature selecting
@@ -58,14 +58,7 @@ Test set accuracy score: 0.65090.
 ## 5.3 AUC
 Area under the ROC curve : 0.650944.
 ## 5.4 Classification report
-             precision    recall  f1-score   support
-
-           0       0.66      0.64      0.65      9491
-           1       0.65      0.66      0.65      9415
-
-   micro avg       0.65      0.65      0.65     18906
-   macro avg       0.65      0.65      0.65     18906
-weighted avg       0.65      0.65      0.65     18906
+![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/report.png)
 # 6. Conclusion
 I didn't try every classification model introduced by professor and our textbook within limited time.<br>
 There are some points that influence the result:<br>
