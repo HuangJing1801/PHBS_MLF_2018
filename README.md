@@ -11,16 +11,18 @@ Download from LendingClub <br>
 Webpage:https://www.lendingclub.com/info/download-data.action
 ## 2.2 Dataset Information
 Loan data for Q2 of 2018<br>
-Format:csv<br>
-Data size:42.7 MB<br>
-LendingClub provide a formal data dictionary, Please check it in folder "data".
+Format: csv<br>
+Data size: 42.7 MB<br>
+LendingClub provide a formal data dictionary, please check it in folder "data".
 ## 2.3 Data visualization
 5 rows × 145 columns
 # 3. Data preprocessing
 ## 3.1 Deal with the null value
+These two pictures below show the proportion of missing data:<br>
+ ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/output_6_1.png)
+ ![image](https://github.com/HuangJing1801/PHBS_MLF_2018/blob/master/images/output_7_1.png)
 Here I drop all columns and rows that contains null value.<br>
-![null-num]
-![null-obj]
+
 5 rows × 40 columns 
 ## 3.2 Drop the meaningless columns
 Feature engineering is a challenge. I will try some method and check the feature importances below.<br>
